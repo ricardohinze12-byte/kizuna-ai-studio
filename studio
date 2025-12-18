@@ -1,0 +1,51 @@
+# Kizuna AI Studio 🎬🤖
+
+![Python](https://img.shields.io/badge/python-3.12-blue?logo=python)
+![React](https://img.shields.io/badge/react-18.2.0-blue?logo=react)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100.0-green?logo=fastapi)
+![Replit Ready](https://img.shields.io/badge/Replit-Ready-orange)
+
+**AI-powered Anime Studio: Generate, edit, and compile full anime episodes with AI**
+
+---
+
+## 🚀 Features
+
+- **AI Story Generation** – Automatic episode outlines & dialogues.
+- **Scene Directing** – Camera angles, emotions, cuts.
+- **Character Design** – Unique characters with outfits, hairstyles, expressions.
+- **Animation & Preview** – Live scene previews with AI thumbnails.
+- **Voice & Music Assignment** – Generate TTS voices & background music per scene.
+- **Drag & Drop Timeline** – Arrange scenes easily.
+- **Auto Opening/Ending** – AI generates OP/ED sequences.
+- **Episode Compilation** – Export complete anime episodes.
+- **Frontend + Backend Integration** – React + FastAPI.
+
+---
+
+## 🎨 How It Works
+
+1. Add scenes and organize in timeline.
+2. Assign character, voice, and music for each scene.
+3. Preview scenes live with thumbnails and audio.
+4. Generate AI Opening & Ending sequences.
+5. Compile and export the final episode.
+
+---
+
+## 💻 Technology Stack
+
+- **Backend:** Python 3.12, FastAPI, HTTP fallback
+- **Frontend:** React, React Beautiful DnD, Axios
+- **AI Integrations:** GPT (story/dialogue), TTS (voice), AI thumbnails
+- **Video Handling:** FFmpeg
+- **Deployment:** Replit-ready (one-click run)
+
+---  
+
+## ⚡ Quick Start (Replit / Local)
+
+```bash
+git clone https://github.com/yourusername/kizuna-ai-studio.git
+cd kizuna_ai_studio
+bash start.sh

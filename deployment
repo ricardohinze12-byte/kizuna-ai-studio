@@ -1,0 +1,120 @@
+name: Build & Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install -r requirements.txt
+      - run: pytest
+aap-studio-backend/
+├── app/
+│   ├── main.py
+│   ├── routes.py
+│   ├── ai/
+│   │   ├── story.py
+│   │   ├── director.py
+│   │   └── voice.py
+│   └── render/
+│       └── ffmpeg.py
+├── tests/
+├── Dockerfile
+└── requirements.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Anime as a Protocol</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Anime as a Protocol</h1>
+  <p>AI-native anime studios. Governed. Scalable. Creator-owned.</p>
+  <div class="cta">
+    <a href="#studios">Launch a Studio</a>
+    <a href="#creators">Join as Creator</a>
+  </div>
+</header>
+
+<section id="features">
+  <h2>What You Can Do</h2>
+  <div class="grid">
+    <div>
+      <h3>Full Season Generation</h3>
+      <p>Create entire anime seasons with one click.</p>
+    </div>
+    <div>
+      <h3>AI Director</h3>
+      <p>Story, scenes, pacing, and emotion handled by AI.</p>
+    </div>
+    <div>
+      <h3>Canon Governance</h3>
+      <p>Universes stay consistent and protected.</p>
+    </div>
+    <div>
+      <h3>Marketplace</h3>
+      <p>Writers, voice actors, composers, animators.</p>
+    </div>
+  </div>
+</section>
+
+<section id="studios">
+  <h2>For Studios</h2>
+  <p>Run an anime studio without production bottlenecks.</p>
+</section>
+
+<section id="creators">
+  <h2>For Creators</h2>
+  <p>Create, publish, monetize, and retain ownership.</p>
+</section>
+
+<footer>
+  <p>© Anime as a Protocol Foundation</p>
+</footer>
+
+</body>
+</html>
+aap-studio-backend/
+├── app/
+│   ├── main.py
+│   ├── routes.py
+│   ├── ai/
+│   │   ├── story.py
+│   │   ├── director.py
+│   │   └── voice.py
+│   └── render/
+│       └── ffmpeg.py
+├── tests/
+├── Dockerfile
+└── requirements.txt
+Generate the actual HTML/CSS website
+
+Create the GitHub repos with starter codeaap-core
+aap-studio-backend
+aap-studio-frontend
+aap-render-workers
+aap-ai-connectors
+aap-governance
+aap/
+├── spec/
+│   ├── aap-v1.md
+│   ├── canon.md
+│   └── compliance.md
+├── reference-implementation/
+│   ├── backend/
+│   ├── frontend/
+│   ├── rendering/
+│   └── ai-connectors/
+├── governance/
+│   ├── charter.md
+│   ├── foundation.md
+│   └── voting.md
+├── legal/
+│   └── templates/
+├── docs/
+│   └── tutorials/
+└── LICENSE
